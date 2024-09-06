@@ -95,6 +95,10 @@ nav a{
 }
 
 /* main section starts */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section starts */
 
@@ -103,6 +107,15 @@ nav a{
     background-color: rgb(255, 248, 243);
     border-radius: 10px;
     margin: 130px 0px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info{
+    text-align: center;
 }
 .section-title{
     color: rgb(24, 24, 24);
